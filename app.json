@@ -1,0 +1,19 @@
+{
+  "expo": {
+    "name": "Expense Tracker Pro",
+    "slug": "expense-tracker-pro",
+    "scheme": "expense-tracker-pro",
+    "version": "0.1.0",
+    "orientation": "portrait",
+    "updates": { "fallbackToCacheTimeout": 0 },
+    "assetBundlePatterns": ["**/*"],
+    "ios": { "supportsTablet": true },
+    "android": {},
+    "web": { "bundler": "metro" },
+    "extra": {
+      "supabaseUrl": "REPLACE_WITH_YOUR_SUPABASE_URL",
+      "supabaseAnonKey": "REPLACE_WITH_YOUR_SUPABASE_ANON_KEY",
+      "eas": { "projectId": "00000000-0000-0000-0000-000000000000" }
+    }
+  }
+}
